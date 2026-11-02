@@ -181,4 +181,12 @@ The stored datasets are fetched and a mean value for a specific lighting, humid 
 For example- the weight of the Computer Vision model will be reduced when visibility is poor, while the weight of the Electronic Nose model will be decreased when the gas sensor readings are unstable.
 
 
+##--Gas Sensor Chamber----------
+![AERONEXIS Gas Sensor Chamber](images/IMG_20261102_063124.jpg)
+This gas sensor chamber features a diffusion layer to spread the gas evenly. Bosch BME688 is a temperature and humidity sensor and the metal oxide sensors need to get heated to work therefore using both sensors in a single chamber can result in wrong data input and output (Garbage in Garbage out) therefore the BME688 is specifically installed at very beginning of the gas sensor chamber. 
+MQ-7 sensor needs a circuit to drive the heating coil, so it is obvious that it generates more heat so I kept it near the outlet so it does not affect the other sensors data.
+
+##--Airflow System----------
+![AERONEXIS Airflow System](images/IMG_20261102_063136.jpg)
+
 
